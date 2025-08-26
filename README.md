@@ -1,14 +1,14 @@
-# Personal Portfolio Website
+# Brooke Walker - Personal Portfolio Website
 
-A modern, responsive personal portfolio website inspired by [Clarence Wooten's design](https://www.clarencewooten.com). This is a professional executive portfolio that showcases your expertise, experience, and services.
+A modern, responsive personal portfolio website inspired by [Clarence Wooten's design](https://www.clarencewooten.com). This is a professional portfolio that showcases Brooke Walker's expertise, experience, and services.
 
 ## 🎯 Website Type
 
-This is a **Personal Executive Portfolio/Branding Website** designed for:
-- Technology executives and entrepreneurs
-- Business consultants and advisors
-- Public speakers and thought leaders
-- Innovation leaders and strategists
+This is a **Personal Professional Portfolio/Branding Website** designed for:
+- Creative professionals and consultants
+- Relationship builders and networkers
+- Strategic planners and problem solvers
+- Collaborative leaders and advocates
 
 ## ✨ Features
 
@@ -19,7 +19,7 @@ This is a **Personal Executive Portfolio/Branding Website** designed for:
 - **Professional Color Scheme** - Blue accent colors with clean whites and grays
 
 ### Sections
-1. **Hero Section** - Bold title with "INNOVATION ARCHITECT" branding
+1. **Hero Section** - Bold title with "CREATIVE PROFESSIONAL" branding
 2. **About Section** - Professional background and expertise
 3. **Services Section** - 6 service cards with icons and descriptions
 4. **Experience Section** - Professional highlights and achievements
@@ -56,12 +56,11 @@ personal_portfolio/
 ## 🎨 Customization Guide
 
 ### 1. Personal Information
-Edit `index.html` to update:
-- Your name (replace "Your Name" throughout)
-- Professional title and tagline
-- About section content
-- Contact information
-- Experience details
+The portfolio has been customized for Brooke Walker with:
+- Professional branding and messaging
+- Relationship-focused service offerings
+- Creative problem-solving emphasis
+- Collaborative leadership approach
 
 ### 2. Services
 Modify the services section in `index.html`:
