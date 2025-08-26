@@ -1,0 +1,68 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="portraitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e9ecef;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dee2e6;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="faceHighlight" cx="50%" cy="40%" r="30%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c2c2c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#portraitGradient)"/>
+  
+  <!-- Face highlight -->
+  <ellipse cx="300" cy="320" rx="120" ry="150" fill="url(#faceHighlight)"/>
+  
+  <!-- Hair/dreads -->
+  <g opacity="0.8">
+    <!-- Main hair shape -->
+    <path d="M180,200 Q300,150 420,200 Q400,350 380,400 Q300,380 220,400 Q200,350 180,200 Z" fill="url(#hairGradient)"/>
+    
+    <!-- Individual dreads -->
+    <path d="M190,180 Q200,160 210,180 Q220,200 210,220 Q200,240 190,220 Q180,200 190,180 Z" fill="#1a1a1a"/>
+    <path d="M210,170 Q220,150 230,170 Q240,190 230,210 Q220,230 210,210 Q200,190 210,170 Z" fill="#2c2c2c"/>
+    <path d="M230,175 Q240,155 250,175 Q260,195 250,215 Q240,235 230,215 Q220,195 230,175 Z" fill="#1a1a1a"/>
+    <path d="M250,180 Q260,160 270,180 Q280,200 270,220 Q260,240 250,220 Q240,200 250,180 Z" fill="#2c2c2c"/>
+    <path d="M270,185 Q280,165 290,185 Q300,205 290,225 Q280,245 270,225 Q260,205 270,185 Z" fill="#1a1a1a"/>
+    <path d="M290,190 Q300,170 310,190 Q320,210 310,230 Q300,250 290,230 Q280,210 290,190 Z" fill="#2c2c2c"/>
+    <path d="M310,195 Q320,175 330,195 Q340,215 330,235 Q320,255 310,235 Q300,215 310,195 Z" fill="#1a1a1a"/>
+    <path d="M330,200 Q340,180 350,200 Q360,220 350,240 Q340,260 330,240 Q320,220 330,200 Z" fill="#2c2c2c"/>
+    <path d="M350,205 Q360,185 370,205 Q380,225 370,245 Q360,265 350,245 Q340,225 350,205 Z" fill="#1a1a1a"/>
+    <path d="M370,210 Q380,190 390,210 Q400,230 390,250 Q380,270 370,250 Q360,230 370,210 Z" fill="#2c2c2c"/>
+  </g>
+  
+  <!-- Face outline -->
+  <ellipse cx="300" cy="320" rx="100" ry="130" fill="none" stroke="#d4af37" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="270" cy="300" rx="15" ry="8" fill="#2c2c2c"/>
+  <ellipse cx="330" cy="300" rx="15" ry="8" fill="#2c2c2c"/>
+  <ellipse cx="270" cy="300" rx="6" ry="4" fill="#ffffff"/>
+  <ellipse cx="330" cy="300" rx="6" ry="4" fill="#ffffff"/>
+  
+  <!-- Nose -->
+  <path d="M300,310 Q305,320 300,330" stroke="#d4af37" stroke-width="1" fill="none" opacity="0.5"/>
+  
+  <!-- Smile -->
+  <path d="M280,340 Q300,350 320,340" stroke="#d4af37" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Shoulders -->
+  <path d="M200,450 Q300,430 400,450 Q420,500 400,550 Q300,530 200,550 Q180,500 200,450 Z" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+  
+  <!-- Elegant border -->
+  <rect x="10" y="10" width="580" height="780" rx="20" fill="none" stroke="#d4af37" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="100" r="3" fill="#d4af37" opacity="0.4"/>
+  <circle cx="550" cy="150" r="2" fill="#b8860b" opacity="0.4"/>
+  <circle cx="80" cy="700" r="2" fill="#daa520" opacity="0.4"/>
+  <circle cx="520" cy="650" r="3" fill="#d4af37" opacity="0.4"/>
+</svg>
